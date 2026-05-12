@@ -56,14 +56,14 @@ The system uses Google's Gemini model to dynamically create structured MCQs in J
 # Project Structure
 
 ```bash
-FastAPI/
+MCQ_Generator/
 │
-├── env/
-├── .env
-├── main.py
-├── utils.py
-├── requirements.txt
-└── README.md
+├── env/               # Virtual Environment
+├── .env               # API Keys and Environment Variables
+├── main.py            # FastAPI Routes and Application Logic
+├── utils.py           # AI logic, SDK configurations, and helper functions
+├── requirements.txt   # Project Dependencies
+└── README.md          # Project Documentation
 ```
 
 ---
@@ -132,7 +132,7 @@ Create a `.env` file in the root directory.
 
 ```env
 GOOGLE_API_KEY=YOUR_API_KEY
-MODEL_NAME=gemini-2.5-flash-lite
+MODEL_NAME=model_name
 ```
 
 ---
@@ -504,36 +504,6 @@ Add this to `.gitignore`:
 env/
 __pycache__/
 ```
-
----
-
-# Author
-
-## Mohit Raj
-
-B.Tech CSE Graduate | Data Analytics & Generative AI Enthusiast
-
----
-
-# Connect with Me
-
-## LinkedIn
-
-```text
-Add your LinkedIn profile here
-```
-
-## GitHub
-
-```text
-Add your GitHub profile here
-```
-
----
-
-# License
-
-This project is for educational and learning purposes.
 
 ---
 
